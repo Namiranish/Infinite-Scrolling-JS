@@ -1,5 +1,5 @@
 const display = document.getElementById('display');
-const accessKey = 'yaraX0WlCZtrqNNj7e52cks6qAHUZQn0Izt6_BSHedY';
+const accessKey = 'K8UXfWbYDjyvuamVEYwonWn4Hs1nW9FV2n7J8HwBO60';
 const url = `https://api.unsplash.com/photos/random/?client_id=${accessKey}&count=10`;
 
 async function getImages() {
@@ -10,7 +10,7 @@ async function getImages() {
 
         showImages(data);
     } catch (err) {
-        console.log('Error fetching images:', err);
+        console.log('Error fetching images');
     }
 }
 
